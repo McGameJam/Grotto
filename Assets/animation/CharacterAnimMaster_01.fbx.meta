@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: ebcc0c74757486640aa1e6086408b485
+timeCreated: 1458475960
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BD_L_arm_1
+    100002: BD_L_arm_1 1
+    100004: BD_L_finger_1
+    100006: BD_L_finger_2
+    100008: BD_L_finger_3
+    100010: BD_L_hand_1
+    100012: BD_L_leg_1
+    100014: BD_L_leg_2
+    100016: BD_L_legSplit_2
+    100018: BD_L_shoulder_1
+    100020: BD_R_arm_1
+    100022: BD_R_arm_1 1
+    100024: BD_R_finger_1
+    100026: BD_R_finger_2
+    100028: BD_R_finger_3
+    100030: BD_R_hand_1
+    100032: BD_R_leg_1
+    100034: BD_R_leg_2
+    100036: BD_R_legSplit_2
+    100038: BD_R_shoulder_1
+    100040: BD_T_head_1
+    100042: BD_T_neck_1
+    100044: BD_T_pelvis_1
+    100046: BD_T_spine_1
+    100048: BD_T_spine_2
+    100050: //RootNode
+    100052: HR_L_arm_1
+    100054: HR_L_epaulette_1
+    100056: HR_L_finger_1
+    100058: HR_L_finger_2
+    100060: HR_L_finger_3
+    100062: HR_L_leg_1
+    100064: HR_R_arm_1
+    100066: HR_R_epaulette_1
+    100068: HR_R_finger_1
+    100070: HR_R_finger_2
+    100072: HR_R_finger_3
+    100074: HR_R_leg_1
+    100076: HR_T_body_1
+    100078: HR_T_head_1
+    100080: HR_T_persoGr_1
+    100082: IK_L_arm_1
+    100084: IK_L_leg_1
+    100086: IK_R_arm_1
+    100088: IK_R_leg_1
+    100090: JT_L_fingerSplit_1
+    100092: JT_L_fingerSplit_2
+    100094: JT_L_fingerSplit_3
+    100096: JT_R_fingerSplit_1
+    100098: JT_R_fingerSplit_2
+    100100: JT_R_fingerSplit_3
+    100102: JT_T_headSplit_1
+    100104: locator1
+    100106: RG_C_animIcon_1
+    100108: RG_C_handCtrlGr_1
+    100110: RG_C_legCtrlGr_1
+    100112: RG_C_masterIcon_1
+    100114: RG_L_handCtrl_1
+    100116: RG_L_legCtrl_1
+    100118: RG_R_handCtrl_1
+    100120: RG_R_legCtrl_1
+    400000: BD_L_arm_1
+    400002: BD_L_arm_1 1
+    400004: BD_L_finger_1
+    400006: BD_L_finger_2
+    400008: BD_L_finger_3
+    400010: BD_L_hand_1
+    400012: BD_L_leg_1
+    400014: BD_L_leg_2
+    400016: BD_L_legSplit_2
+    400018: BD_L_shoulder_1
+    400020: BD_R_arm_1
+    400022: BD_R_arm_1 1
+    400024: BD_R_finger_1
+    400026: BD_R_finger_2
+    400028: BD_R_finger_3
+    400030: BD_R_hand_1
+    400032: BD_R_leg_1
+    400034: BD_R_leg_2
+    400036: BD_R_legSplit_2
+    400038: BD_R_shoulder_1
+    400040: BD_T_head_1
+    400042: BD_T_neck_1
+    400044: BD_T_pelvis_1
+    400046: BD_T_spine_1
+    400048: BD_T_spine_2
+    400050: //RootNode
+    400052: HR_L_arm_1
+    400054: HR_L_epaulette_1
+    400056: HR_L_finger_1
+    400058: HR_L_finger_2
+    400060: HR_L_finger_3
+    400062: HR_L_leg_1
+    400064: HR_R_arm_1
+    400066: HR_R_epaulette_1
+    400068: HR_R_finger_1
+    400070: HR_R_finger_2
+    400072: HR_R_finger_3
+    400074: HR_R_leg_1
+    400076: HR_T_body_1
+    400078: HR_T_head_1
+    400080: HR_T_persoGr_1
+    400082: IK_L_arm_1
+    400084: IK_L_leg_1
+    400086: IK_R_arm_1
+    400088: IK_R_leg_1
+    400090: JT_L_fingerSplit_1
+    400092: JT_L_fingerSplit_2
+    400094: JT_L_fingerSplit_3
+    400096: JT_R_fingerSplit_1
+    400098: JT_R_fingerSplit_2
+    400100: JT_R_fingerSplit_3
+    400102: JT_T_headSplit_1
+    400104: locator1
+    400106: RG_C_animIcon_1
+    400108: RG_C_handCtrlGr_1
+    400110: RG_C_legCtrlGr_1
+    400112: RG_C_masterIcon_1
+    400114: RG_L_handCtrl_1
+    400116: RG_L_legCtrl_1
+    400118: RG_R_handCtrl_1
+    400120: RG_R_legCtrl_1
+    4300000: HR_T_body_1
+    4300002: HR_T_head_1
+    4300004: HR_R_arm_1
+    4300006: HR_L_arm_1
+    4300008: HR_R_finger_1
+    4300010: HR_R_finger_2
+    4300012: HR_L_finger_1
+    4300014: HR_L_finger_2
+    4300016: HR_R_finger_3
+    4300018: HR_L_finger_3
+    4300020: HR_R_epaulette_1
+    4300022: HR_L_epaulette_1
+    4300024: HR_R_leg_1
+    4300026: HR_L_leg_1
+    7400000: Idle
+    7400002: Attack
+    7400004: Capture
+    7400006: Freeze
+    7400008: Death
+    7400010: Jump
+    7400012: Walk
+    9500000: //RootNode
+    13700000: HR_L_arm_1
+    13700002: HR_L_epaulette_1
+    13700004: HR_L_finger_1
+    13700006: HR_L_finger_2
+    13700008: HR_L_finger_3
+    13700010: HR_L_leg_1
+    13700012: HR_R_arm_1
+    13700014: HR_R_epaulette_1
+    13700016: HR_R_finger_1
+    13700018: HR_R_finger_2
+    13700020: HR_R_finger_3
+    13700022: HR_R_leg_1
+    13700024: HR_T_body_1
+    13700026: HR_T_head_1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HR_T_persoGr_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_arm_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_epaulette_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_2
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_3
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_leg_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_arm_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_epaulette_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_2
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_3
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_leg_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_T_body_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_T_head_1
+        weight: 1
+      - path: RG_C_masterIcon_1
+        weight: 1
+      - path: RG_C_masterIcon_1/IK_L_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/IK_R_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1/IK_L_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1/IK_R_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1/BD_L_leg_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1/BD_L_leg_2/BD_L_legSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1/BD_R_leg_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1/BD_R_leg_2/BD_R_legSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_1/JT_L_fingerSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_2/JT_L_fingerSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_3/JT_L_fingerSplit_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_1/JT_R_fingerSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_2/JT_R_fingerSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_3/JT_R_fingerSplit_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1/BD_T_head_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1/BD_T_head_1/JT_T_headSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1/RG_L_handCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1/RG_R_handCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1/RG_L_legCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1/RG_R_legCtrl_1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 41
+      lastFrame: 77
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HR_T_persoGr_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_arm_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_epaulette_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_2
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_3
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_leg_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_arm_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_epaulette_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_2
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_3
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_leg_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_T_body_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_T_head_1
+        weight: 1
+      - path: RG_C_masterIcon_1
+        weight: 1
+      - path: RG_C_masterIcon_1/IK_L_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/IK_R_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1/IK_L_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1/IK_R_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1/BD_L_leg_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1/BD_L_leg_2/BD_L_legSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1/BD_R_leg_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1/BD_R_leg_2/BD_R_legSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_1/JT_L_fingerSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_2/JT_L_fingerSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_3/JT_L_fingerSplit_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_1/JT_R_fingerSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_2/JT_R_fingerSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_3/JT_R_fingerSplit_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1/BD_T_head_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1/BD_T_head_1/JT_T_headSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1/RG_L_handCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1/RG_R_handCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1/RG_L_legCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1/RG_R_legCtrl_1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Capture
+      takeName: Take 001
+      firstFrame: 78
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HR_T_persoGr_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_arm_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_epaulette_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_2
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_3
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_leg_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_arm_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_epaulette_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_2
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_3
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_leg_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_T_body_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_T_head_1
+        weight: 1
+      - path: RG_C_masterIcon_1
+        weight: 1
+      - path: RG_C_masterIcon_1/IK_L_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/IK_R_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1/IK_L_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1/IK_R_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1/BD_L_leg_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1/BD_L_leg_2/BD_L_legSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1/BD_R_leg_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1/BD_R_leg_2/BD_R_legSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_1/JT_L_fingerSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_2/JT_L_fingerSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_3/JT_L_fingerSplit_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_1/JT_R_fingerSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_2/JT_R_fingerSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_3/JT_R_fingerSplit_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1/BD_T_head_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1/BD_T_head_1/JT_T_headSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1/RG_L_handCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1/RG_R_handCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1/RG_L_legCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1/RG_R_legCtrl_1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Freeze
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 673
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HR_T_persoGr_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_arm_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_epaulette_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_2
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_3
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_leg_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_arm_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_epaulette_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_2
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_3
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_leg_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_T_body_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_T_head_1
+        weight: 1
+      - path: RG_C_masterIcon_1
+        weight: 1
+      - path: RG_C_masterIcon_1/IK_L_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/IK_R_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1/IK_L_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1/IK_R_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1/BD_L_leg_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1/BD_L_leg_2/BD_L_legSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1/BD_R_leg_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1/BD_R_leg_2/BD_R_legSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_1/JT_L_fingerSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_2/JT_L_fingerSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_3/JT_L_fingerSplit_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_1/JT_R_fingerSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_2/JT_R_fingerSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_3/JT_R_fingerSplit_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1/BD_T_head_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1/BD_T_head_1/JT_T_headSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1/RG_L_handCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1/RG_R_handCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1/RG_L_legCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1/RG_R_legCtrl_1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 680
+      lastFrame: 761
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HR_T_persoGr_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_arm_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_epaulette_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_2
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_3
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_leg_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_arm_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_epaulette_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_2
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_3
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_leg_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_T_body_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_T_head_1
+        weight: 1
+      - path: RG_C_masterIcon_1
+        weight: 1
+      - path: RG_C_masterIcon_1/IK_L_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/IK_R_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1/IK_L_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1/IK_R_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1/BD_L_leg_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1/BD_L_leg_2/BD_L_legSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1/BD_R_leg_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1/BD_R_leg_2/BD_R_legSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_1/JT_L_fingerSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_2/JT_L_fingerSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_3/JT_L_fingerSplit_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_1/JT_R_fingerSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_2/JT_R_fingerSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_3/JT_R_fingerSplit_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1/BD_T_head_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1/BD_T_head_1/JT_T_headSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1/RG_L_handCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1/RG_R_handCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1/RG_L_legCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1/RG_R_legCtrl_1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 765
+      lastFrame: 785
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HR_T_persoGr_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_arm_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_epaulette_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_2
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_3
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_leg_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_arm_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_epaulette_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_2
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_3
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_leg_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_T_body_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_T_head_1
+        weight: 1
+      - path: RG_C_masterIcon_1
+        weight: 1
+      - path: RG_C_masterIcon_1/IK_L_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/IK_R_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1/IK_L_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1/IK_R_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1/BD_L_leg_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1/BD_L_leg_2/BD_L_legSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1/BD_R_leg_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1/BD_R_leg_2/BD_R_legSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_1/JT_L_fingerSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_2/JT_L_fingerSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_3/JT_L_fingerSplit_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_1/JT_R_fingerSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_2/JT_R_fingerSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_3/JT_R_fingerSplit_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1/BD_T_head_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1/BD_T_head_1/JT_T_headSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1/RG_L_handCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1/RG_R_handCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1/RG_L_legCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1/RG_R_legCtrl_1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 790
+      lastFrame: 815
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HR_T_persoGr_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_arm_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_epaulette_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_2
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_finger_3
+        weight: 1
+      - path: HR_T_persoGr_1/HR_L_leg_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_arm_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_epaulette_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_2
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_finger_3
+        weight: 1
+      - path: HR_T_persoGr_1/HR_R_leg_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_T_body_1
+        weight: 1
+      - path: HR_T_persoGr_1/HR_T_head_1
+        weight: 1
+      - path: RG_C_masterIcon_1
+        weight: 1
+      - path: RG_C_masterIcon_1/IK_L_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/IK_R_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1/IK_L_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/locator1/IK_R_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1/BD_L_leg_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_L_leg_1/BD_L_leg_2/BD_L_legSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1/BD_R_leg_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_R_leg_1/BD_R_leg_2/BD_R_legSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_1/JT_L_fingerSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_2/JT_L_fingerSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_L_shoulder_1/BD_L_arm_1/BD_L_arm_1
+          1/BD_L_hand_1/BD_L_finger_3/JT_L_fingerSplit_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_1/JT_R_fingerSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_2/JT_R_fingerSplit_2
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_R_shoulder_1/BD_R_arm_1/BD_R_arm_1
+          1/BD_R_hand_1/BD_R_finger_3/JT_R_fingerSplit_3
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1/BD_T_head_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_animIcon_1/BD_T_pelvis_1/BD_T_spine_1/BD_T_spine_2/BD_T_neck_1/BD_T_head_1/JT_T_headSplit_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1/RG_L_handCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_handCtrlGr_1/RG_R_handCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1/RG_L_legCtrl_1
+        weight: 1
+      - path: RG_C_masterIcon_1/RG_C_legCtrlGr_1/RG_R_legCtrl_1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

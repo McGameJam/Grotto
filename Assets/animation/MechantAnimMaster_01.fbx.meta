@@ -1,0 +1,930 @@
+fileFormatVersion: 2
+guid: ace2186d89926f6418e0ce82d8c23943
+timeCreated: 1458482804
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: persoMechant:BD_C_marteau_1
+    100004: persoMechant:BD_L_arm_1
+    100006: persoMechant:BD_L_arm_1 1
+    100008: persoMechant:BD_L_finger_1
+    100010: persoMechant:BD_L_finger_2
+    100012: persoMechant:BD_L_finger_3
+    100014: persoMechant:BD_L_hand_1
+    100016: persoMechant:BD_L_leg_1
+    100018: persoMechant:BD_L_leg_2
+    100020: persoMechant:BD_L_legSplit_2
+    100022: persoMechant:BD_L_shoulder_1
+    100024: persoMechant:BD_R_arm_1
+    100026: persoMechant:BD_R_arm_1 1
+    100028: persoMechant:BD_R_finger_1
+    100030: persoMechant:BD_R_finger_2
+    100032: persoMechant:BD_R_finger_3
+    100034: persoMechant:BD_R_hand_1
+    100036: persoMechant:BD_R_leg_1
+    100038: persoMechant:BD_R_leg_2
+    100040: persoMechant:BD_R_legSplit_2
+    100042: persoMechant:BD_R_shoulder_1
+    100044: persoMechant:BD_T_head_1
+    100046: persoMechant:BD_T_neck_1
+    100048: persoMechant:BD_T_pelvis_1
+    100050: persoMechant:BD_T_spine_1
+    100052: persoMechant:BD_T_spine_2
+    100054: persoMechant:HR_marteau_01
+    100056: persoMechant:HR_mechant_1
+    100058: persoMechant:HR_T_mechantGr_1
+    100060: persoMechant:HR_T_mechantMasterGr_1
+    100062: persoMechant:IK_L_arm_1
+    100064: persoMechant:IK_L_leg_1
+    100066: persoMechant:IK_R_arm_1
+    100068: persoMechant:IK_R_leg_1
+    100070: persoMechant:JT_L_fingerSplit_1
+    100072: persoMechant:JT_L_fingerSplit_2
+    100074: persoMechant:JT_L_fingerSplit_3
+    100076: persoMechant:JT_R_fingerSplit_1
+    100078: persoMechant:JT_R_fingerSplit_2
+    100080: persoMechant:JT_R_fingerSplit_3
+    100082: persoMechant:JT_T_headSplit_1
+    100084: persoMechant:left
+    100086: persoMechant:polySurface1
+    100088: persoMechant:polySurface10
+    100090: persoMechant:polySurface11
+    100092: persoMechant:polySurface12
+    100094: persoMechant:polySurface13
+    100096: persoMechant:polySurface2
+    100098: persoMechant:polySurface3
+    100100: persoMechant:polySurface4
+    100102: persoMechant:polySurface5
+    100104: persoMechant:polySurface6
+    100106: persoMechant:polySurface7
+    100108: persoMechant:polySurface8
+    100110: persoMechant:polySurface9
+    100112: persoMechant:RG_C_animIcon_1
+    100114: persoMechant:RG_C_handCtrlGr_1
+    100116: persoMechant:RG_C_legCtrlGr_1
+    100118: persoMechant:RG_C_masterIcon_1
+    100120: persoMechant:RG_L_handCtrl_1
+    100122: persoMechant:RG_L_legCtrl_1
+    100124: persoMechant:RG_R_handCtrl_1
+    100126: persoMechant:RG_R_legCtrl_1
+    100128: persoMechant:RG_T_mechant_1
+    400000: //RootNode
+    400002: persoMechant:BD_C_marteau_1
+    400004: persoMechant:BD_L_arm_1
+    400006: persoMechant:BD_L_arm_1 1
+    400008: persoMechant:BD_L_finger_1
+    400010: persoMechant:BD_L_finger_2
+    400012: persoMechant:BD_L_finger_3
+    400014: persoMechant:BD_L_hand_1
+    400016: persoMechant:BD_L_leg_1
+    400018: persoMechant:BD_L_leg_2
+    400020: persoMechant:BD_L_legSplit_2
+    400022: persoMechant:BD_L_shoulder_1
+    400024: persoMechant:BD_R_arm_1
+    400026: persoMechant:BD_R_arm_1 1
+    400028: persoMechant:BD_R_finger_1
+    400030: persoMechant:BD_R_finger_2
+    400032: persoMechant:BD_R_finger_3
+    400034: persoMechant:BD_R_hand_1
+    400036: persoMechant:BD_R_leg_1
+    400038: persoMechant:BD_R_leg_2
+    400040: persoMechant:BD_R_legSplit_2
+    400042: persoMechant:BD_R_shoulder_1
+    400044: persoMechant:BD_T_head_1
+    400046: persoMechant:BD_T_neck_1
+    400048: persoMechant:BD_T_pelvis_1
+    400050: persoMechant:BD_T_spine_1
+    400052: persoMechant:BD_T_spine_2
+    400054: persoMechant:HR_marteau_01
+    400056: persoMechant:HR_mechant_1
+    400058: persoMechant:HR_T_mechantGr_1
+    400060: persoMechant:HR_T_mechantMasterGr_1
+    400062: persoMechant:IK_L_arm_1
+    400064: persoMechant:IK_L_leg_1
+    400066: persoMechant:IK_R_arm_1
+    400068: persoMechant:IK_R_leg_1
+    400070: persoMechant:JT_L_fingerSplit_1
+    400072: persoMechant:JT_L_fingerSplit_2
+    400074: persoMechant:JT_L_fingerSplit_3
+    400076: persoMechant:JT_R_fingerSplit_1
+    400078: persoMechant:JT_R_fingerSplit_2
+    400080: persoMechant:JT_R_fingerSplit_3
+    400082: persoMechant:JT_T_headSplit_1
+    400084: persoMechant:left
+    400086: persoMechant:polySurface1
+    400088: persoMechant:polySurface10
+    400090: persoMechant:polySurface11
+    400092: persoMechant:polySurface12
+    400094: persoMechant:polySurface13
+    400096: persoMechant:polySurface2
+    400098: persoMechant:polySurface3
+    400100: persoMechant:polySurface4
+    400102: persoMechant:polySurface5
+    400104: persoMechant:polySurface6
+    400106: persoMechant:polySurface7
+    400108: persoMechant:polySurface8
+    400110: persoMechant:polySurface9
+    400112: persoMechant:RG_C_animIcon_1
+    400114: persoMechant:RG_C_handCtrlGr_1
+    400116: persoMechant:RG_C_legCtrlGr_1
+    400118: persoMechant:RG_C_masterIcon_1
+    400120: persoMechant:RG_L_handCtrl_1
+    400122: persoMechant:RG_L_legCtrl_1
+    400124: persoMechant:RG_R_handCtrl_1
+    400126: persoMechant:RG_R_legCtrl_1
+    400128: persoMechant:RG_T_mechant_1
+    4300000: persoMechant:polySurface1
+    4300002: persoMechant:polySurface2
+    4300004: persoMechant:polySurface3
+    4300006: persoMechant:polySurface4
+    4300008: persoMechant:polySurface5
+    4300010: persoMechant:polySurface6
+    4300012: persoMechant:polySurface7
+    4300014: persoMechant:polySurface8
+    4300016: persoMechant:polySurface9
+    4300018: persoMechant:polySurface10
+    4300020: persoMechant:polySurface11
+    4300022: persoMechant:polySurface12
+    4300024: persoMechant:polySurface13
+    4300026: persoMechant:HR_marteau_01
+    7400000: Walk
+    7400002: Attack
+    7400004: Jump
+    7400006: Hit
+    9500000: //RootNode
+    13700000: persoMechant:HR_marteau_01
+    13700002: persoMechant:polySurface1
+    13700004: persoMechant:polySurface10
+    13700006: persoMechant:polySurface11
+    13700008: persoMechant:polySurface12
+    13700010: persoMechant:polySurface13
+    13700012: persoMechant:polySurface2
+    13700014: persoMechant:polySurface3
+    13700016: persoMechant:polySurface4
+    13700018: persoMechant:polySurface5
+    13700020: persoMechant:polySurface6
+    13700022: persoMechant:polySurface7
+    13700024: persoMechant:polySurface8
+    13700026: persoMechant:polySurface9
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_marteau_01
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface4
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface5
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface6
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface7
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface8
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface9
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface10
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface11
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface12
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface13
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:IK_L_arm_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:IK_L_leg_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:IK_R_arm_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:IK_R_leg_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:BD_C_marteau_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_L_leg_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_L_leg_1/persoMechant:BD_L_leg_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_L_leg_1/persoMechant:BD_L_leg_2/persoMechant:BD_L_legSplit_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_R_leg_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_R_leg_1/persoMechant:BD_R_leg_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_R_leg_1/persoMechant:BD_R_leg_2/persoMechant:BD_R_legSplit_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_1/persoMechant:JT_L_fingerSplit_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_2/persoMechant:JT_L_fingerSplit_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_3/persoMechant:JT_L_fingerSplit_3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_1/persoMechant:JT_R_fingerSplit_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_2/persoMechant:JT_R_fingerSplit_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_3/persoMechant:JT_R_fingerSplit_3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_T_neck_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_T_neck_1/persoMechant:BD_T_head_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_T_neck_1/persoMechant:BD_T_head_1/persoMechant:JT_T_headSplit_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_handCtrlGr_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_handCtrlGr_1/persoMechant:RG_L_handCtrl_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_handCtrlGr_1/persoMechant:RG_R_handCtrl_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_legCtrlGr_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_legCtrlGr_1/persoMechant:RG_L_legCtrl_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_legCtrlGr_1/persoMechant:RG_R_legCtrl_1
+        weight: 1
+      - path: persoMechant:left
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_marteau_01
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface4
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface5
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface6
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface7
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface8
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface9
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface10
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface11
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface12
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface13
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:IK_L_arm_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:IK_L_leg_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:IK_R_arm_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:IK_R_leg_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:BD_C_marteau_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_L_leg_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_L_leg_1/persoMechant:BD_L_leg_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_L_leg_1/persoMechant:BD_L_leg_2/persoMechant:BD_L_legSplit_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_R_leg_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_R_leg_1/persoMechant:BD_R_leg_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_R_leg_1/persoMechant:BD_R_leg_2/persoMechant:BD_R_legSplit_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_1/persoMechant:JT_L_fingerSplit_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_2/persoMechant:JT_L_fingerSplit_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_3/persoMechant:JT_L_fingerSplit_3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_1/persoMechant:JT_R_fingerSplit_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_2/persoMechant:JT_R_fingerSplit_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_3/persoMechant:JT_R_fingerSplit_3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_T_neck_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_T_neck_1/persoMechant:BD_T_head_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_T_neck_1/persoMechant:BD_T_head_1/persoMechant:JT_T_headSplit_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_handCtrlGr_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_handCtrlGr_1/persoMechant:RG_L_handCtrl_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_handCtrlGr_1/persoMechant:RG_R_handCtrl_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_legCtrlGr_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_legCtrlGr_1/persoMechant:RG_L_legCtrl_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_legCtrlGr_1/persoMechant:RG_R_legCtrl_1
+        weight: 1
+      - path: persoMechant:left
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_marteau_01
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface4
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface5
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface6
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface7
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface8
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface9
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface10
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface11
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface12
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface13
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:IK_L_arm_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:IK_L_leg_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:IK_R_arm_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:IK_R_leg_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:BD_C_marteau_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_L_leg_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_L_leg_1/persoMechant:BD_L_leg_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_L_leg_1/persoMechant:BD_L_leg_2/persoMechant:BD_L_legSplit_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_R_leg_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_R_leg_1/persoMechant:BD_R_leg_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_R_leg_1/persoMechant:BD_R_leg_2/persoMechant:BD_R_legSplit_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_1/persoMechant:JT_L_fingerSplit_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_2/persoMechant:JT_L_fingerSplit_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_3/persoMechant:JT_L_fingerSplit_3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_1/persoMechant:JT_R_fingerSplit_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_2/persoMechant:JT_R_fingerSplit_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_3/persoMechant:JT_R_fingerSplit_3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_T_neck_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_T_neck_1/persoMechant:BD_T_head_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_T_neck_1/persoMechant:BD_T_head_1/persoMechant:JT_T_headSplit_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_handCtrlGr_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_handCtrlGr_1/persoMechant:RG_L_handCtrl_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_handCtrlGr_1/persoMechant:RG_R_handCtrl_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_legCtrlGr_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_legCtrlGr_1/persoMechant:RG_L_legCtrl_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_legCtrlGr_1/persoMechant:RG_R_legCtrl_1
+        weight: 1
+      - path: persoMechant:left
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_marteau_01
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface4
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface5
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface6
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface7
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface8
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface9
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface10
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface11
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface12
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:HR_T_mechantGr_1/persoMechant:HR_mechant_1/persoMechant:polySurface13
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:IK_L_arm_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:IK_L_leg_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:IK_R_arm_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:IK_R_leg_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:BD_C_marteau_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_L_leg_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_L_leg_1/persoMechant:BD_L_leg_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_L_leg_1/persoMechant:BD_L_leg_2/persoMechant:BD_L_legSplit_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_R_leg_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_R_leg_1/persoMechant:BD_R_leg_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_R_leg_1/persoMechant:BD_R_leg_2/persoMechant:BD_R_legSplit_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_1/persoMechant:JT_L_fingerSplit_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_2/persoMechant:JT_L_fingerSplit_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_L_shoulder_1/persoMechant:BD_L_arm_1/persoMechant:BD_L_arm_1
+          1/persoMechant:BD_L_hand_1/persoMechant:BD_L_finger_3/persoMechant:JT_L_fingerSplit_3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_1/persoMechant:JT_R_fingerSplit_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_2/persoMechant:JT_R_fingerSplit_2
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_R_shoulder_1/persoMechant:BD_R_arm_1/persoMechant:BD_R_arm_1
+          1/persoMechant:BD_R_hand_1/persoMechant:BD_R_finger_3/persoMechant:JT_R_fingerSplit_3
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_T_neck_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_T_neck_1/persoMechant:BD_T_head_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_animIcon_1/persoMechant:BD_T_pelvis_1/persoMechant:BD_T_spine_1/persoMechant:BD_T_spine_2/persoMechant:BD_T_neck_1/persoMechant:BD_T_head_1/persoMechant:JT_T_headSplit_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_handCtrlGr_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_handCtrlGr_1/persoMechant:RG_L_handCtrl_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_handCtrlGr_1/persoMechant:RG_R_handCtrl_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_legCtrlGr_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_legCtrlGr_1/persoMechant:RG_L_legCtrl_1
+        weight: 1
+      - path: persoMechant:HR_T_mechantMasterGr_1/persoMechant:RG_T_mechant_1/persoMechant:RG_C_masterIcon_1/persoMechant:RG_C_legCtrlGr_1/persoMechant:RG_R_legCtrl_1
+        weight: 1
+      - path: persoMechant:left
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
